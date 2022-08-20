@@ -8,7 +8,7 @@ class Node:
         next=link to next node
     """
 
-    def _init_(self, data=None, next=None):
+    def __init__(self, data=None, next=None):
         """
         Initializes the Node with the given attributes
         """
@@ -26,7 +26,7 @@ class LinkedList:
         self.head-contains first node of LinkedList and None if list empty
     """
 
-    def _init_(self):
+    def __init__(self):
         """
         Initialize the head
         """
